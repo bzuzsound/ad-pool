@@ -20,6 +20,13 @@
    - MyBatis
    - HTML5
 ---
+
+### recorded screen (Youtube)
+
+[![video](http://img.youtube.com/vi/B6cxAF3CmhQ/0.jpg)](https://youtu.be/B6cxAF3CmhQ?t=0s "ad-pool demo")
+
+---
+
 ### screen shots
 <div>
   <ul>
@@ -58,10 +65,5 @@
 
 ---
 
-### recorded screen
-
-[![video](http://img.youtube.com/vi/B6cxAF3CmhQ/0.jpg)](https://youtu.be/B6cxAF3CmhQ?t=0s "ad-pool demo")
-
-
----
-### 감사합니다:) Many thanks !!!
+### 감사합니다:)  
+Many thanks !!!
