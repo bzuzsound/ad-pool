@@ -4,7 +4,7 @@
 *Portal site of Advertising Video for companies/students*
 
 ### dev tools&environments (개발 환경)
-+ #### MVC(model2)
++ #### MVC(model2) with Spring
 + #### tools
    - Spring Tool Suite
    - Apache Tomcat 9.0
@@ -55,3 +55,5 @@
     </li>
   </ul>
 </div>
+
+### Many thanks !!!
