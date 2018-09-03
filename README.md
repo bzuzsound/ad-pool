@@ -56,6 +56,10 @@
   </ul>
 </div>
 
+---
+
+### recorded screen
+[![video](https://photos-5.dropbox.com/t/2/AACZFo32TPJKfFsw17Vj0_diOmV3l12AlIJspI8JPC…gXeUe8?psid=eb4ffb66-21c4-4fce-89d8-a7dc7a7f04fd&size=1024x768&size_mode=2)](https://www.dropbox.com/s/61e0qdn30anmnpy/screenRec180903.mov?dl=0)
 
 ---
 ### 감사합니다:) Many thanks !!!
