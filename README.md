@@ -60,7 +60,7 @@
 
 ### recorded screen
 
-[![video](https://img.youtube.com/vi/B6cxAF3CmhQ/maxresdefault.jpg)](https://youtu.be/B6cxAF3CmhQ)
+[![video](http://img.youtube.com/vi/B6cxAF3CmhQ/0.jpg)](https://youtu.be/B6cxAF3CmhQ)
 
 
 ---
