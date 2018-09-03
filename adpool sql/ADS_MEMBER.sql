@@ -1,0 +1,72 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 화요일-7월-31-2018   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table ADS_MEMBER
+--------------------------------------------------------
+
+  CREATE TABLE "ADPOOL"."ADS_MEMBER" 
+   (	"M_ID" VARCHAR2(20 BYTE), 
+	"M_PASSWORD" VARCHAR2(20 BYTE), 
+	"M_NAME" VARCHAR2(20 BYTE), 
+	"M_ADDRESS" VARCHAR2(50 BYTE), 
+	"M_EMAIL" VARCHAR2(30 BYTE), 
+	"M_DATE" DATE, 
+	"M_DEL" VARCHAR2(2 BYTE), 
+	"M_GRADE" NUMBER(*,0), 
+	"M_IP" VARCHAR2(20 BYTE), 
+	"M_PICTURE" VARCHAR2(500 BYTE), 
+	"M_PHONE" VARCHAR2(20 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into ADPOOL.ADS_MEMBER
+SET DEFINE OFF;
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('1','2','3','4','5',to_date('18/07/02','RR/MM/DD'),'6',7,'8',null,null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('123','000000','123','강남구','kk@ll.olo',to_date('18/07/02','RR/MM/DD'),'N',1,'0:0:0:0:0:0:0:1','Jellyfish.jpg',null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('1234','1234','1234','1234','1234',to_date('18/07/02','RR/MM/DD'),'N',1,'127.0.0.1',null,null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('1235','1235','1235','1235','1235',to_date('18/07/02','RR/MM/DD'),'N',1,'127.0.0.1',null,null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('123456','123123','123456','123456','123@naver.com',to_date('18/07/02','RR/MM/DD'),'N',1,'0:0:0:0:0:0:0:1','Desert.jpg',null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('cins','pass02','CINFS','서울시 청담동','mailccs@gmail.com',to_date('18/07/17','RR/MM/DD'),'N',1,'0:0:0:0:0:0:0:1','0','010-7751-4425');
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('n46342619','passtest01','이학성','서대문구 역삼동 자유로 33길','email@adpool.co.kr',to_date('18/07/20','RR/MM/DD'),'N',5,'127.0.0.1','https://ssl.pstatic.net/static/pwe/address/img_profile.png','010-5555-5555');
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('test50','123123','test11','1231234','abc@abc.com4',to_date('18/07/12','RR/MM/DD'),'Y',1,'0:0:0:0:0:0:0:1','0','010-1234-1234');
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('k814910542','1234','신종찬','aaa','abc@abc.com',to_date('18/07/19','RR/MM/DD'),'N',4,'0:0:0:0:0:0:0:1','http://k.kakaocdn.net/dn/cQrz5V/btqnqW85Xk1/1uJHiniVr0fl5VeLSUwqxK/profile_640x640s.jpg','010-7777-7777');
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('n26034215','test','신종찬','test','test@test.com',to_date('18/07/20','RR/MM/DD'),'N',5,'127.0.0.1','https://ssl.pstatic.net/static/pwe/address/img_profile.png','010-5555-5555');
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('ids','pass0505','nmae','address112345','lwk13245@gmail.com',to_date('18/07/02','RR/MM/DD'),'Y',1,'127.0.0.1',null,null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('bzuz','123456','승호','강남','bzuz@hotmail.com',to_date('18/07/03','RR/MM/DD'),'N',1,'0:0:0:0:0:0:0:1','copyright.png',null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('hocs','dydtjs','ㅇㅇ','강남구 테헤란로123','hpos@naa.ccf',to_date('18/07/03','RR/MM/DD'),'N',1,'0:0:0:0:0:0:0:1','Koala.jpg',null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('lhs','pass0202','이학성','서울시 테헤란로 139-22','lhs@naver.com',to_date('18/07/03','RR/MM/DD'),'Y',1,'127.0.0.1',null,null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('shsh','123456','승호','강남','bzuz@hotmail.com',to_date('18/07/03','RR/MM/DD'),'N',1,'0:0:0:0:0:0:0:1',null,null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('encs','123123','1','addres114-2245','12@naver.com',to_date('18/07/03','RR/MM/DD'),'N',1,'127.0.0.1','Chrysanthemum.jpg',null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('1231234','444444','수정12','11','11',to_date('18/07/09','RR/MM/DD'),'N',0,'0:0:0:0:0:0:0:1','0',null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('master','master','master','master','master@master.com',to_date('18/07/09','RR/MM/DD'),'N',0,'0:0:0:0:0:0:0:1','Penguins.jpg',null);
+Insert into ADPOOL.ADS_MEMBER (M_ID,M_PASSWORD,M_NAME,M_ADDRESS,M_EMAIL,M_DATE,M_DEL,M_GRADE,M_IP,M_PICTURE,M_PHONE) values ('345678','123123','수정test','수정test','수정test',to_date('18/07/10','RR/MM/DD'),'Y',3,'0:0:0:0:0:0:0:1','0',null);
+--------------------------------------------------------
+--  DDL for Index SYS_C007385
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "ADPOOL"."SYS_C007385" ON "ADPOOL"."ADS_MEMBER" ("M_ID") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table ADS_MEMBER
+--------------------------------------------------------
+
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" ADD PRIMARY KEY ("M_ID")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_IP" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_GRADE" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_DEL" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_DATE" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_EMAIL" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_ADDRESS" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_NAME" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_PASSWORD" NOT NULL ENABLE);
+  ALTER TABLE "ADPOOL"."ADS_MEMBER" MODIFY ("M_ID" NOT NULL ENABLE);
