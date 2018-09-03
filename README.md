@@ -60,10 +60,8 @@
 
 ### recorded screen
 
-[![video](https://img.youtu.com/vi/B6cxAF3CmhQ/0.jpg)](https://youtu.be/B6cxAF3CmhQ)
+[![video](https://img.youtube.com/vi/B6cxAF3CmhQ/maxresdefault.jpg)](https://youtu.be/B6cxAF3CmhQ)
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B6cxAF3CmhQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 ### 감사합니다:) Many thanks !!!
