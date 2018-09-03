@@ -60,7 +60,10 @@
 
 ### recorded screen
 
-[![video](https://user-images.githubusercontent.com/35102405/44969676-3d61cc80-af89-11e8-9682-becc08bb8911.jpg)](https://youtu.be/B6cxAF3CmhQ)
+[![video](https://img.youtu.com/vi/B6cxAF3CmhQ/0.jpg)](https://youtu.be/B6cxAF3CmhQ)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B6cxAF3CmhQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 ### 감사합니다:) Many thanks !!!
