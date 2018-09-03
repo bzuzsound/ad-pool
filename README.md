@@ -59,7 +59,7 @@
 ---
 
 ### recorded screen
-[![video](https://user-images.githubusercontent.com/35102405/44968972-d1ca3000-af85-11e8-9cd6-0268fcc7d11f.jpeg)](https://www.dropbox.com/s/61e0qdn30anmnpy/screenRec180903.mov?dl=0)
+[![video](https://user-images.githubusercontent.com/35102405/44968972-d1ca3000-af85-11e8-9cd6-0268fcc7d11f.jpeg)](https://www.dropbox.com/home/Public?preview=screenRec180903.mov)
 
 ---
 ### 감사합니다:) Many thanks !!!
